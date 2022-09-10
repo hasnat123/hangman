@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Header from "./components/Header";
-import Figure from "./components/Figure";
-import WrongLetters from "./components/WrongLetters";
-import Word from "./components/Word";
-import Notification from "./components/Notification";
+import Header from "./components/Header/Header";
+import Figure from "./components/Figure/Figure";
+import WrongLetters from "./components/WrongLetters/WrongLetters";
+import Word from "./components/Word/Word";
+import Notification from "./components/Notification/Notification";
 import Popup from "./components/Popup";
 import { showNotification as show } from "./helpers/helpers"; //Need to import 'showNotification' function with different name due to there already existing a state with same name
 
